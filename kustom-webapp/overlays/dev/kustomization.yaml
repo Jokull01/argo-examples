@@ -1,7 +1,10 @@
 bases:
 - ../../base
 
-patchesStrategicMerge:
+# the kustom chart would not render
+# patches:
+#  - replicas.yaml
+patchesStrategicMerge: 
  - replicas.yaml
 
 configMapGenerator:
